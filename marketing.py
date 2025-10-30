@@ -26,6 +26,11 @@ customer = {
 
 response = requests.post(url, json=customer)
 
+print()
+print(response)
+print()
+
+
 churn = response.json()
 
 print(f'response = {churn}')
